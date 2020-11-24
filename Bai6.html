@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr=[1,2,12,22,3,55,90,100,120,999];
+    let check=parseInt(prompt('Nhap so nguyen de kiem tra'));
+    let flag=false;
+
+    for (i=0; i< arr.length;i++) {
+        if (check == arr[i]) {
+            flag=true;
+            break;
+        }
+    }
+    if (flag)
+        alert(check+ ' co nam trong mang');
+    else
+        alert(check+ ' khong nam trong mang');
+
+
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr=[12,10,1997,10,5,68,73,1,2,3];
+    let check=parseInt(prompt('Nhap so nguyen'));
+    for (let i=0; i< arr.length; i++){
+        if (check== arr[i]){
+            arr.splice(i,1);
+            arr.push(0);
+            break;
+        }
+    }
+    document.write(arr);
+
+
+</script>
+
+</body>
+</html>
